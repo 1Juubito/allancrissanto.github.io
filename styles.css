@@ -1,0 +1,76 @@
+/* Aplica as mudanças em todos os elementos da página */
+* {
+    margin: 0; /* Coloca a margem em zero */
+    padding: 0; /* Coloca o preenchimento em zero */
+}
+
+/* Aplica as mudanças apenas no body */
+body {
+    font-family: 'Arial', sans-serif; /* Muda a fonte do Body para Arial */
+    background-color: #f0f2f5; /* Muda cor de fundo para branco */
+    color: #333; /* Muda cor do texto para preto */
+}
+/* Aplica as mudanças apenas no header */
+header {
+    background-color: #3498db; 
+    color: #fff;
+    padding: 32px; /* Altera o espaçamento */
+    text-align: center;  /* Alinha o texto ao centro */
+}
+
+header h1 {
+    font-size: 40px; /* Altera o tamanho do texto */
+    background: rgba(0, 0, 0, 0.5); /* Coloca a cor de fundo para preto */
+    display: inline; /* Altera o título para inline */
+    padding: 10px;
+}
+
+nav ul {
+    margin-top: 16px; /* Altera espaçamento */
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px; 
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none; /* Retirar o sublinhado */
+    font-weight: bold; /* Colocando a fonte em negrito */
+}
+/* Quando cursor estiver em cima do nav, ul, li, vão sofrer as alterações do código abaixo */
+nav ul li a:hover {
+    color: #e74c3c; /* Deixar o cursor do mouse em vermelho quando estiver sobre */
+}
+
+main {
+    padding: 32px;
+    max-width: 900px; /* Ajustando tamanho máximo */
+    margin: 32px auto;
+    background: #fff;
+}
+
+main h2 {
+    
+    color: #3498db;
+    
+}
+
+section {
+   
+    padding: 16px;
+    background: #eaf4f4;    
+}
+
+section h2 {
+    color: #2c3e50;
+}
+
+footer {
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    padding: 16px; 
+}
+
